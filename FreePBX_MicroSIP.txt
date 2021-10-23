@@ -1,0 +1,89 @@
+
+[2021-10-22 08:38:53] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (526 bytes) from UDP:192.168.1.9:64849 --->
+REGISTER sip:192.168.1.11 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.9:64849;rport;branch=z9hG4bKPjdb3904f70899439b9c598bd7be722b6f
+Max-Forwards: 70
+From: "123" <sip:125@192.168.1.11>;tag=a5b5e34ec3f044ea8cd615db7f3d6515
+To: "123" <sip:125@192.168.1.11>
+Call-ID: f18f4de0ea5a47c7ac25fba12530622e
+CSeq: 21725 REGISTER
+User-Agent: MicroSIP/3.20.7
+Contact: "123" <sip:125@192.168.1.9:64849;ob>
+Expires: 300
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Content-Length:  0
+
+
+[2021-10-22 08:38:53] VERBOSE[5342] res_pjsip_logger.c: <--- Transmitting SIP response (564 bytes) to UDP:192.168.1.9:64849 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.1.9:64849;rport=64849;received=192.168.1.9;branch=z9hG4bKPjdb3904f70899439b9c598bd7be722b6f
+Call-ID: f18f4de0ea5a47c7ac25fba12530622e
+From: "123" <sip:125@192.168.1.11>;tag=a5b5e34ec3f044ea8cd615db7f3d6515
+To: "123" <sip:125@192.168.1.11>;tag=z9hG4bKPjdb3904f70899439b9c598bd7be722b6f
+CSeq: 21725 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891933/688e09a15c8b80244e0c6a27da911851",opaque="773d671f5bc0d4c3",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:38:53] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (812 bytes) from UDP:192.168.1.9:64849 --->
+REGISTER sip:192.168.1.11 SIP/2.0
+Via: SIP/2.0/UDP 192.168.1.9:64849;rport;branch=z9hG4bKPjc5f4b41a78224729aa13738669d4a573
+Max-Forwards: 70
+From: "123" <sip:125@192.168.1.11>;tag=a5b5e34ec3f044ea8cd615db7f3d6515
+To: "123" <sip:125@192.168.1.11>
+Call-ID: f18f4de0ea5a47c7ac25fba12530622e
+CSeq: 21726 REGISTER
+User-Agent: MicroSIP/3.20.7
+Contact: "123" <sip:125@192.168.1.9:64849;ob>
+Expires: 300
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Authorization: Digest username="125", realm="asterisk", nonce="1634891933/688e09a15c8b80244e0c6a27da911851", uri="sip:192.168.1.11", response="d35c04b3fc53508a724cb450a3ed0738", algorithm=md5, cnonce="1fa7b5912fdc406b97ca7b3595dc0cc8", opaque="773d671f5bc0d4c3", qop=auth, nc=00000001
+Content-Length:  0
+
+
+[2021-10-22 08:38:53] VERBOSE[5342] res_pjsip_registrar.c: Added contact 'sip:125@192.168.1.9:64849;ob' to AOR '125' with expiration of 300 seconds
+[2021-10-22 08:38:53] VERBOSE[5342] res_pjsip_logger.c: <--- Transmitting SIP response (512 bytes) to UDP:192.168.1.9:64849 --->
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 192.168.1.9:64849;rport=64849;received=192.168.1.9;branch=z9hG4bKPjc5f4b41a78224729aa13738669d4a573
+Call-ID: f18f4de0ea5a47c7ac25fba12530622e
+From: "123" <sip:125@192.168.1.11>;tag=a5b5e34ec3f044ea8cd615db7f3d6515
+To: "123" <sip:125@192.168.1.11>;tag=z9hG4bKPjc5f4b41a78224729aa13738669d4a573
+CSeq: 21726 REGISTER
+Date: Fri, 22 Oct 2021 08:38:53 GMT
+Contact: <sip:125@192.168.1.9:64849;ob>;expires=299
+Expires: 300
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:38:53] VERBOSE[5342] res_pjsip_logger.c: <--- Transmitting SIP request (430 bytes) to UDP:192.168.1.9:64849 --->
+OPTIONS sip:125@192.168.1.9:64849;ob SIP/2.0
+Via: SIP/2.0/UDP 104.145.12.182:5060;rport;branch=z9hG4bKPj3b6d80fc-b246-4b9f-bc73-48a89b7738b6
+From: <sip:125@192.168.1.11>;tag=c260229d-7a50-4bdb-970f-116b63d4f61b
+To: <sip:125@192.168.1.9;ob>
+Contact: <sip:125@104.145.12.182:5060>
+Call-ID: 631b5c09-1f2a-4130-a087-16173822a3cb
+CSeq: 58774 OPTIONS
+Max-Forwards: 70
+User-Agent: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:38:53] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP response (783 bytes) from UDP:192.168.1.9:64849 --->
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 104.145.12.182:5060;rport=5060;received=192.168.1.11;branch=z9hG4bKPj3b6d80fc-b246-4b9f-bc73-48a89b7738b6
+Call-ID: 631b5c09-1f2a-4130-a087-16173822a3cb
+From: <sip:125@192.168.1.11>;tag=c260229d-7a50-4bdb-970f-116b63d4f61b
+To: <sip:125@192.168.1.9;ob>;tag=z9hG4bKPj3b6d80fc-b246-4b9f-bc73-48a89b7738b6
+CSeq: 58774 OPTIONS
+Allow: PRACK, INVITE, ACK, BYE, CANCEL, UPDATE, INFO, SUBSCRIBE, NOTIFY, REFER, MESSAGE, OPTIONS
+Accept: application/sdp, application/pidf+xml, application/xpidf+xml, application/simple-message-summary, message/sipfrag;version=2.0, application/im-iscomposing+xml, text/plain
+Supported: replaces, 100rel, timer, norefersub
+Allow-Events: presence, message-summary, refer
+User-Agent: MicroSIP/3.20.7
+Content-Length:  0
+
+
+[2021-10-22 08:38:53] VERBOSE[5343] res_pjsip/pjsip_configuration.c: Endpoint 125 is now Reachable
+[2021-10-22 08:38:53] VERBOSE[5343] res_pjsip/pjsip_options.c: Contact 125/sip:125@192.168.1.9:64849;ob is now Reachable.  RTT: 1.629 msec

@@ -1,0 +1,735 @@
+
+[2021-10-22 08:33:25] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (579 bytes) from UDP:192.168.1.7:12440 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:12440;branch=z9hG4bK-965943313;rport
+From: <sip:125@192.168.1.11:5060>;tag=1415662114
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:12440>
+Max-Forwards: 70
+Call-ID: 231A8C6C37EAFC897BA601016AB29FF5ACF0F1FA4990
+CSeq: 1 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+
+
+[2021-10-22 08:33:25] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (492 bytes) to UDP:192.168.1.7:12440 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:12440;rport=12440;received=192.168.1.7;branch=z9hG4bK-965943313
+Call-ID: 231A8C6C37EAFC897BA601016AB29FF5ACF0F1FA4990
+From: <sip:125@192.168.1.11>;tag=1415662114
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-965943313
+CSeq: 1 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891605/b87cf97105908bfa5c746003cb3b79a5",opaque="28c2e2011c4c35c3",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:27] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (579 bytes) from UDP:192.168.1.7:12440 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:12440;branch=z9hG4bK-965943313;rport
+From: <sip:125@192.168.1.11:5060>;tag=1415662114
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:12440>
+Max-Forwards: 70
+Call-ID: 231A8C6C37EAFC897BA601016AB29FF5ACF0F1FA4990
+CSeq: 1 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+
+
+[2021-10-22 08:33:27] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (492 bytes) to UDP:192.168.1.7:12440 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:12440;rport=12440;received=192.168.1.7;branch=z9hG4bK-965943313
+Call-ID: 231A8C6C37EAFC897BA601016AB29FF5ACF0F1FA4990
+From: <sip:125@192.168.1.11>;tag=1415662114
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-965943313
+CSeq: 1 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891607/bb452d320ce7cb69d263d042e6af0bec",opaque="037e7e0052c65fea",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:29] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (579 bytes) from UDP:192.168.1.7:12440 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:12440;branch=z9hG4bK-965943313;rport
+From: <sip:125@192.168.1.11:5060>;tag=1415662114
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:12440>
+Max-Forwards: 70
+Call-ID: 231A8C6C37EAFC897BA601016AB29FF5ACF0F1FA4990
+CSeq: 1 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+
+
+[2021-10-22 08:33:29] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (492 bytes) to UDP:192.168.1.7:12440 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:12440;rport=12440;received=192.168.1.7;branch=z9hG4bK-965943313
+Call-ID: 231A8C6C37EAFC897BA601016AB29FF5ACF0F1FA4990
+From: <sip:125@192.168.1.11>;tag=1415662114
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-965943313
+CSeq: 1 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891609/b2c0e396b44c66e0ec18ac1af2aa20d2",opaque="700a68133bb5de36",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:44] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (581 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1090579825;rport
+From: <sip:125@192.168.1.11:5060>;tag=1541966989
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 2 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+
+
+[2021-10-22 08:33:44] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (496 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1090579825
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=1541966989
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1090579825
+CSeq: 2 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891624/7788b5d2831d76f08c46d3a4b474b062",opaque="68dcc2e3647e8067",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:46] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (581 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1090579825;rport
+From: <sip:125@192.168.1.11:5060>;tag=1541966989
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 2 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+
+
+[2021-10-22 08:33:46] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (496 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1090579825
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=1541966989
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1090579825
+CSeq: 2 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891626/d61b66b693a2ec38b5de9baea972ca56",opaque="048ed9b543b0f54a",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:46] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (828 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-857042598;rport
+From: <sip:125@192.168.1.11:5060>;tag=407604051
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 3 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891626/d61b66b693a2ec38b5de9baea972ca56", uri="sip:192.168.1.11:5060", response="fffa03801ff20ff74e8089d02f830935", algorithm=md5, nc=00000001, cnonce="91427a6122b7f86e", qop="auth"
+
+
+[2021-10-22 08:33:46] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:46] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (491 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-857042598
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=407604051
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-857042598
+CSeq: 3 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891626/d61b66b693a2ec38b5de9baea972ca56",opaque="3795e225335ba923",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:46] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (828 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-111585790;rport
+From: <sip:125@192.168.1.11:5060>;tag=287098841
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 4 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891626/d61b66b693a2ec38b5de9baea972ca56", uri="sip:192.168.1.11:5060", response="c37d8ae702ce5f66b3e35bbe42236018", algorithm=md5, nc=00000001, cnonce="5cc8b234afbb6d5b", qop="auth"
+
+
+[2021-10-22 08:33:46] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:46] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (491 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-111585790
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=287098841
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-111585790
+CSeq: 4 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891626/d61b66b693a2ec38b5de9baea972ca56",opaque="3793474e3f509b1c",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:47] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (831 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--217202389;rport
+From: <sip:125@192.168.1.11:5060>;tag=-1639206465
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 5 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891626/d61b66b693a2ec38b5de9baea972ca56", uri="sip:192.168.1.11:5060", response="f7ff3e541a7fd7e81082f23e5c7555e0", algorithm=md5, nc=00000001, cnonce="2b94ba2744ab5baa", qop="auth"
+
+
+[2021-10-22 08:33:47] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:47] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (495 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--217202389
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-1639206465
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--217202389
+CSeq: 5 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891627/200014baf4dfa33442c5093d5611f189",opaque="34a88564003f8b99",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:47] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (830 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1053938934;rport
+From: <sip:125@192.168.1.11:5060>;tag=175562329
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 6 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891627/200014baf4dfa33442c5093d5611f189", uri="sip:192.168.1.11:5060", response="093b25d8f1d28a2e07d297419ee6bb81", algorithm=md5, nc=00000001, cnonce="d421cfcf14efbc05", qop="auth"
+
+
+[2021-10-22 08:33:47] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:47] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (495 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1053938934
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=175562329
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1053938934
+CSeq: 6 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891627/200014baf4dfa33442c5093d5611f189",opaque="0173aa7b1ec1e565",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:48] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (830 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1023634448;rport
+From: <sip:125@192.168.1.11:5060>;tag=188793036
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 7 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891627/200014baf4dfa33442c5093d5611f189", uri="sip:192.168.1.11:5060", response="86a527f3a711a30be2a3a95a56f355bd", algorithm=md5, nc=00000001, cnonce="a641a7ea9515f91d", qop="auth"
+
+
+[2021-10-22 08:33:48] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:48] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (495 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1023634448
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=188793036
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1023634448
+CSeq: 7 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891628/42a600f2ee133780464c7d7f1a02ab1d",opaque="608ff0e7182030f7",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:48] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (830 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-1691797320;rport
+From: <sip:125@192.168.1.11:5060>;tag=-618614172
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 8 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891628/42a600f2ee133780464c7d7f1a02ab1d", uri="sip:192.168.1.11:5060", response="ab0e8d0a8f99cded58aa95fa94bcf182", algorithm=md5, nc=00000001, cnonce="077aecc332f7fcd8", qop="auth"
+
+
+[2021-10-22 08:33:48] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:48] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (494 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-1691797320
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-618614172
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-1691797320
+CSeq: 8 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891628/42a600f2ee133780464c7d7f1a02ab1d",opaque="6d855e005038133d",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:50] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (830 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-1691797320;rport
+From: <sip:125@192.168.1.11:5060>;tag=-618614172
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 8 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891628/42a600f2ee133780464c7d7f1a02ab1d", uri="sip:192.168.1.11:5060", response="ab0e8d0a8f99cded58aa95fa94bcf182", algorithm=md5, nc=00000001, cnonce="077aecc332f7fcd8", qop="auth"
+
+
+[2021-10-22 08:33:50] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:50] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (494 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-1691797320
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-618614172
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-1691797320
+CSeq: 8 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891630/0178a4673216465443ea14f0a67aac6c",opaque="3891f25a36d454ed",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:51] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (831 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1307788883;rport
+From: <sip:125@192.168.1.11:5060>;tag=2046497709
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 9 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891630/0178a4673216465443ea14f0a67aac6c", uri="sip:192.168.1.11:5060", response="fab287b72ac25f031c10af111328d88e", algorithm=md5, nc=00000001, cnonce="93e42bc4cab07909", qop="auth"
+
+
+[2021-10-22 08:33:51] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:51] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (496 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1307788883
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=2046497709
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1307788883
+CSeq: 9 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8",opaque="6b4564603f4cee5c",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:51] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (831 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1145134844;rport
+From: <sip:125@192.168.1.11:5060>;tag=786737159
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 10 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8", uri="sip:192.168.1.11:5060", response="25bb8c1e1a310bcd70a3fe3aa54f557a", algorithm=md5, nc=00000001, cnonce="cdd3174dd9840e6e", qop="auth"
+
+
+[2021-10-22 08:33:51] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:51] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (496 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1145134844
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=786737159
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1145134844
+CSeq: 10 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8",opaque="350c42141581e11f",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:51] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (831 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-1506717298;rport
+From: <sip:125@192.168.1.11:5060>;tag=-654267333
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 11 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8", uri="sip:192.168.1.11:5060", response="00328f22bedc8fb9424058be012681da", algorithm=md5, nc=00000001, cnonce="e17fa0242ea129ae", qop="auth"
+
+
+[2021-10-22 08:33:51] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:51] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (495 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-1506717298
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-654267333
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-1506717298
+CSeq: 11 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8",opaque="0260a9f76587e272",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:51] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (832 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1613998991;rport
+From: <sip:125@192.168.1.11:5060>;tag=-978488144
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 12 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8", uri="sip:192.168.1.11:5060", response="73771a085b66101af63936d1d0171c45", algorithm=md5, nc=00000001, cnonce="171a1c8201b419b2", qop="auth"
+
+
+[2021-10-22 08:33:51] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:51] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (497 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1613998991
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-978488144
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1613998991
+CSeq: 12 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8",opaque="617c47a747d2931b",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:52] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (832 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--618984956;rport
+From: <sip:125@192.168.1.11:5060>;tag=-1049864049
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 13 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8", uri="sip:192.168.1.11:5060", response="97b1b8a461f7602cd1de604c1c4fb652", algorithm=md5, nc=00000001, cnonce="583da2fa0ff70ec6", qop="auth"
+
+
+[2021-10-22 08:33:52] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:52] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (496 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--618984956
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-1049864049
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--618984956
+CSeq: 13 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd",opaque="3af820e60de90bfd",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:52] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (831 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-1925636968;rport
+From: <sip:125@192.168.1.11:5060>;tag=-182996806
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 14 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd", uri="sip:192.168.1.11:5060", response="41b78cfb89ab773c01d175f708920f37", algorithm=md5, nc=00000001, cnonce="2314358e8a7047f3", qop="auth"
+
+
+[2021-10-22 08:33:52] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:52] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (495 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-1925636968
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-182996806
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-1925636968
+CSeq: 14 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd",opaque="710d066f74b2bd24",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:52] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (830 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-632691396;rport
+From: <sip:125@192.168.1.11:5060>;tag=1486253994
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 15 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd", uri="sip:192.168.1.11:5060", response="62bbc6b79461a7d90038337d7753c928", algorithm=md5, nc=00000001, cnonce="c08cf28467bc0a0e", qop="auth"
+
+
+[2021-10-22 08:33:52] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:52] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (493 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-632691396
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=1486253994
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-632691396
+CSeq: 15 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd",opaque="59b80feb1fb3e67b",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:52] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (831 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-1145443983;rport
+From: <sip:125@192.168.1.11:5060>;tag=-775880962
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 16 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd", uri="sip:192.168.1.11:5060", response="3e79e21bd88ac837897226d350cc12e5", algorithm=md5, nc=00000001, cnonce="852ae645691049cd", qop="auth"
+
+
+[2021-10-22 08:33:52] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:52] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (495 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-1145443983
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-775880962
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-1145443983
+CSeq: 16 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd",opaque="663f2f4f44622d70",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:52] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (831 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--542230363;rport
+From: <sip:125@192.168.1.11:5060>;tag=1182905877
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 17 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd", uri="sip:192.168.1.11:5060", response="94442e8af996e703587b7b91a788c7ac", algorithm=md5, nc=00000001, cnonce="93e5563d8be9449c", qop="auth"
+
+
+[2021-10-22 08:33:52] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:52] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (495 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--542230363
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=1182905877
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--542230363
+CSeq: 17 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd",opaque="6a619f1030e36b27",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:52] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (831 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1000504024;rport
+From: <sip:125@192.168.1.11:5060>;tag=513929230
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 18 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd", uri="sip:192.168.1.11:5060", response="d7b5cf6549608ee2249eab729bd95d5d", algorithm=md5, nc=00000001, cnonce="ea2889f0bc4cbbcd", qop="auth"
+
+
+[2021-10-22 08:33:52] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:52] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (496 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1000504024
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=513929230
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1000504024
+CSeq: 18 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd",opaque="33a35172743df846",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:53] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (831 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-1904327715;rport
+From: <sip:125@192.168.1.11:5060>;tag=-104422790
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 19 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd", uri="sip:192.168.1.11:5060", response="5b050ca34fb25f734d32946c122c32b9", algorithm=md5, nc=00000001, cnonce="ad5a5cecd5c78cb1", qop="auth"
+
+
+[2021-10-22 08:33:53] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:53] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (495 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-1904327715
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-104422790
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-1904327715
+CSeq: 19 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891633/bf0def2cc72a0d6ffa0c0fa4c99f5b45",opaque="2da4c4311a31edd9",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+[2021-10-22 08:33:53] VERBOSE[2309] res_pjsip_logger.c: <--- Received SIP request (832 bytes) from UDP:192.168.1.7:10413 --->
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-1562832922;rport
+From: <sip:125@192.168.1.11:5060>;tag=-1932679771
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 20 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891633/bf0def2cc72a0d6ffa0c0fa4c99f5b45", uri="sip:192.168.1.11:5060", response="7fbf4cbe6cdafc2c48200eaa43808bbd", algorithm=md5, nc=00000001, cnonce="044cb41108b2492b", qop="auth"
+
+
+[2021-10-22 08:33:53] NOTICE[4372] res_pjsip/pjsip_distributor.c: Request 'REGISTER' from '<sip:125@192.168.1.11>' failed for '192.168.1.7:10413' (callid: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E) - Failed to authenticate
+[2021-10-22 08:33:53] VERBOSE[4372] res_pjsip_logger.c: <--- Transmitting SIP response (496 bytes) to UDP:192.168.1.7:10413 --->
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-1562832922
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-1932679771
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-1562832922
+CSeq: 20 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891633/bf0def2cc72a0d6ffa0c0fa4c99f5b45",opaque="61f39fa929552476",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+

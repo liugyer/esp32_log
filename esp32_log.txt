@@ -1,0 +1,885 @@
+I (23178) SIP: Conecting...
+W (23188) SIP: CHANGE STATE FROM 0, TO 1, :func: sip_connect:1667
+I (23188) SIP: [1970-01-01/00:00:11]=======WRITE 0579 bytes>>
+I (23198) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:12440;branch=z9hG4bK-965943313;rport
+From: <sip:125@192.168.1.11:5060>;tag=1415662114
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:12440>
+Max-Forwards: 70
+Call-ID: 231A8C6C37EAFC897BA601016AB29FF5ACF0F1FA4990
+CSeq: 1 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+
+
+I (23248) SIP: [1970-01-01/00:00:11]=======================>>
+W (25258) SIP: Retransmit again
+I (25258) SIP: [1970-01-01/00:00:12]=======WRITE 0579 bytes>>
+I (25258) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:12440;branch=z9hG4bK-965943313;rport
+From: <sip:125@192.168.1.11:5060>;tag=1415662114
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:12440>
+Max-Forwards: 70
+Call-ID: 231A8C6C37EAFC897BA601016AB29FF5ACF0F1FA4990
+CSeq: 1 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+
+
+I (25308) SIP: [1970-01-01/00:00:12]=======================>>
+W (27318) SIP: Retransmit again
+I (27318) SIP: [1970-01-01/00:00:13]=======WRITE 0579 bytes>>
+I (27318) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:12440;branch=z9hG4bK-965943313;rport
+From: <sip:125@192.168.1.11:5060>;tag=1415662114
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:12440>
+Max-Forwards: 70
+Call-ID: 231A8C6C37EAFC897BA601016AB29FF5ACF0F1FA4990
+CSeq: 1 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+
+
+I (27368) SIP: [1970-01-01/00:00:13]=======================>>
+W (29378) SIP: read timeout
+E (29378) SIP: Error register device
+W (29378) SIP: CHANGE STATE FROM 1, TO 0, :func: sip_register:1682
+W (39378) SIP: CHANGE STATE FROM 0, TO 0, :func: sip_reconnect:313
+I (42378) SIP: Conecting...
+W (42378) SIP: CHANGE STATE FROM 0, TO 1, :func: sip_connect:1667
+I (42378) SIP: [1970-01-01/00:00:20]=======WRITE 0581 bytes>>
+I (42378) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1090579825;rport
+From: <sip:125@192.168.1.11:5060>;tag=1541966989
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 2 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+
+
+I (42438) SIP: [1970-01-01/00:00:20]=======================>>
+W (44438) SIP: Retransmit again
+I (44438) SIP: [1970-01-01/00:00:21]=======WRITE 0581 bytes>>
+I (44438) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1090579825;rport
+From: <sip:125@192.168.1.11:5060>;tag=1541966989
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 2 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+
+
+I (44488) SIP: [1970-01-01/00:00:21]=======================>>
+I (44518) SIP: [1970-01-01/00:00:21]<<=====READ 0496 bytes==
+I (44518) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1090579825
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=1541966989
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1090579825
+CSeq: 2 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891626/d61b66b693a2ec38b5de9baea972ca56",opaque="048ed9b543b0f54a",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+W (44528) wifi:<ba-add>idx:1 (ifx:0, 80:ea:07:5d:32:82), tid:3, ssn:1, winSize:64
+I (44568) SIP: [1970-01-01/00:00:21]<<======================
+I (44578) SIP: Required authentication
+I (44578) SIP: [1970-01-01/00:00:21]=======WRITE 0828 bytes>>
+I (44588) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-857042598;rport
+From: <sip:125@192.168.1.11:5060>;tag=407604051
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 3 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891626/d61b66b693a2ec38b5de9baea972ca56", uri="sip:192.168.1.11:5060", response="fffa03801ff20ff74e8089d02f830935", algorithm=md5, nc=00000001, cnonce="91427a6122b7f86e", qop="auth"
+
+
+I (44658) SIP: [1970-01-01/00:00:21]=======================>>
+I (44708) SIP: [1970-01-01/00:00:22]<<=====READ 0491 bytes==
+I (44708) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-857042598
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=407604051
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-857042598
+CSeq: 3 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891626/d61b66b693a2ec38b5de9baea972ca56",opaque="3795e225335ba923",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (44748) SIP: [1970-01-01/00:00:22]<<======================
+I (44758) SIP: Required authentication
+I (44768) SIP: [1970-01-01/00:00:22]=======WRITE 0828 bytes>>
+I (44768) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-111585790;rport
+From: <sip:125@192.168.1.11:5060>;tag=287098841
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 4 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891626/d61b66b693a2ec38b5de9baea972ca56", uri="sip:192.168.1.11:5060", response="c37d8ae702ce5f66b3e35bbe42236018", algorithm=md5, nc=00000001, cnonce="5cc8b234afbb6d5b", qop="auth"
+
+
+I (44848) SIP: [1970-01-01/00:00:22]=======================>>
+I (45158) SIP: [1970-01-01/00:00:22]<<=====READ 0491 bytes==
+I (45158) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-111585790
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=287098841
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-111585790
+CSeq: 4 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891626/d61b66b693a2ec38b5de9baea972ca56",opaque="3793474e3f509b1c",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (45198) SIP: [1970-01-01/00:00:22]<<======================
+I (45208) SIP: Required authentication
+I (45218) SIP: [1970-01-01/00:00:22]=======WRITE 0831 bytes>>
+I (45218) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--217202389;rport
+From: <sip:125@192.168.1.11:5060>;tag=-1639206465
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 5 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891626/d61b66b693a2ec38b5de9baea972ca56", uri="sip:192.168.1.11:5060", response="f7ff3e541a7fd7e81082f23e5c7555e0", algorithm=md5, nc=00000001, cnonce="2b94ba2744ab5baa", qop="auth"
+
+
+I (45298) SIP: [1970-01-01/00:00:22]=======================>>
+I (45678) SIP: [1970-01-01/00:00:22]<<=====READ 0495 bytes==
+I (45678) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--217202389
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-1639206465
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--217202389
+CSeq: 5 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891627/200014baf4dfa33442c5093d5611f189",opaque="34a88564003f8b99",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (45718) SIP: [1970-01-01/00:00:22]<<======================
+I (45728) SIP: Required authentication
+I (45728) SIP: [1970-01-01/00:00:22]=======WRITE 0830 bytes>>
+I (45738) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1053938934;rport
+From: <sip:125@192.168.1.11:5060>;tag=175562329
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 6 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891627/200014baf4dfa33442c5093d5611f189", uri="sip:192.168.1.11:5060", response="093b25d8f1d28a2e07d297419ee6bb81", algorithm=md5, nc=00000001, cnonce="d421cfcf14efbc05", qop="auth"
+
+
+I (45818) SIP: [1970-01-01/00:00:22]=======================>>
+I (46188) SIP: [1970-01-01/00:00:22]<<=====READ 0495 bytes==
+I (46188) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1053938934
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=175562329
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1053938934
+CSeq: 6 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891627/200014baf4dfa33442c5093d5611f189",opaque="0173aa7b1ec1e565",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (46228) SIP: [1970-01-01/00:00:22]<<======================
+I (46238) SIP: Required authentication
+I (46238) SIP: [1970-01-01/00:00:22]=======WRITE 0830 bytes>>
+I (46248) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1023634448;rport
+From: <sip:125@192.168.1.11:5060>;tag=188793036
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 7 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891627/200014baf4dfa33442c5093d5611f189", uri="sip:192.168.1.11:5060", response="86a527f3a711a30be2a3a95a56f355bd", algorithm=md5, nc=00000001, cnonce="a641a7ea9515f91d", qop="auth"
+
+
+I (46318) SIP: [1970-01-01/00:00:22]=======================>>
+I (46498) SIP: [1970-01-01/00:00:22]<<=====READ 0495 bytes==
+I (46498) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1023634448
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=188793036
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1023634448
+CSeq: 7 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891628/42a600f2ee133780464c7d7f1a02ab1d",opaque="608ff0e7182030f7",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (46538) SIP: [1970-01-01/00:00:22]<<======================
+I (46548) SIP: Required authentication
+I (46548) SIP: [1970-01-01/00:00:22]=======WRITE 0830 bytes>>
+I (46558) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-1691797320;rport
+From: <sip:125@192.168.1.11:5060>;tag=-618614172
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 8 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891628/42a600f2ee133780464c7d7f1a02ab1d", uri="sip:192.168.1.11:5060", response="ab0e8d0a8f99cded58aa95fa94bcf182", algorithm=md5, nc=00000001, cnonce="077aecc332f7fcd8", qop="auth"
+
+
+I (46628) SIP: [1970-01-01/00:00:22]=======================>>
+W (48638) SIP: Retransmit again
+I (48638) SIP: [1970-01-01/00:00:23]=======WRITE 0830 bytes>>
+I (48638) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-1691797320;rport
+From: <sip:125@192.168.1.11:5060>;tag=-618614172
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 8 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891628/42a600f2ee133780464c7d7f1a02ab1d", uri="sip:192.168.1.11:5060", response="ab0e8d0a8f99cded58aa95fa94bcf182", algorithm=md5, nc=00000001, cnonce="077aecc332f7fcd8", qop="auth"
+
+
+I (48708) SIP: [1970-01-01/00:00:24]=======================>>
+I (48848) SIP: [1970-01-01/00:00:24]<<=====READ 0494 bytes==
+I (48848) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-1691797320
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-618614172
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-1691797320
+CSeq: 8 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891630/0178a4673216465443ea14f0a67aac6c",opaque="3891f25a36d454ed",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (48898) SIP: [1970-01-01/00:00:24]<<======================
+I (48898) SIP: Required authentication
+I (48908) SIP: [1970-01-01/00:00:24]=======WRITE 0831 bytes>>
+I (48908) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1307788883;rport
+From: <sip:125@192.168.1.11:5060>;tag=2046497709
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 9 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891630/0178a4673216465443ea14f0a67aac6c", uri="sip:192.168.1.11:5060", response="fab287b72ac25f031c10af111328d88e", algorithm=md5, nc=00000001, cnonce="93e42bc4cab07909", qop="auth"
+
+
+I (48988) SIP: [1970-01-01/00:00:24]=======================>>
+I (49038) SIP: [1970-01-01/00:00:24]<<=====READ 0496 bytes==
+I (49038) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1307788883
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=2046497709
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1307788883
+CSeq: 9 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8",opaque="6b4564603f4cee5c",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (49078) SIP: [1970-01-01/00:00:24]<<======================
+I (49088) SIP: Required authentication
+I (49088) SIP: [1970-01-01/00:00:24]=======WRITE 0831 bytes>>
+I (49088) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1145134844;rport
+From: <sip:125@192.168.1.11:5060>;tag=786737159
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 10 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8", uri="sip:192.168.1.11:5060", response="25bb8c1e1a310bcd70a3fe3aa54f557a", algorithm=md5, nc=00000001, cnonce="cdd3174dd9840e6e", qop="auth"
+
+
+I (49168) SIP: [1970-01-01/00:00:24]=======================>>
+I (49198) SIP: [1970-01-01/00:00:24]<<=====READ 0496 bytes==
+I (49198) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1145134844
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=786737159
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1145134844
+CSeq: 10 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8",opaque="350c42141581e11f",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (49248) SIP: [1970-01-01/00:00:24]<<======================
+I (49248) SIP: Required authentication
+I (49258) SIP: [1970-01-01/00:00:24]=======WRITE 0831 bytes>>
+I (49258) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-1506717298;rport
+From: <sip:125@192.168.1.11:5060>;tag=-654267333
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 11 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8", uri="sip:192.168.1.11:5060", response="00328f22bedc8fb9424058be012681da", algorithm=md5, nc=00000001, cnonce="e17fa0242ea129ae", qop="auth"
+
+
+I (49338) SIP: [1970-01-01/00:00:24]=======================>>
+I (49568) SIP: [1970-01-01/00:00:24]<<=====READ 0495 bytes==
+I (49568) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-1506717298
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-654267333
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-1506717298
+CSeq: 11 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8",opaque="0260a9f76587e272",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (49608) SIP: [1970-01-01/00:00:24]<<======================
+I (49618) SIP: Required authentication
+I (49618) SIP: [1970-01-01/00:00:24]=======WRITE 0832 bytes>>
+I (49628) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1613998991;rport
+From: <sip:125@192.168.1.11:5060>;tag=-978488144
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 12 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8", uri="sip:192.168.1.11:5060", response="73771a085b66101af63936d1d0171c45", algorithm=md5, nc=00000001, cnonce="171a1c8201b419b2", qop="auth"
+
+
+I (49698) SIP: [1970-01-01/00:00:24]=======================>>
+I (49738) SIP: [1970-01-01/00:00:24]<<=====READ 0497 bytes==
+I (49738) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1613998991
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-978488144
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1613998991
+CSeq: 12 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8",opaque="617c47a747d2931b",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (49778) SIP: [1970-01-01/00:00:24]<<======================
+I (49788) SIP: Required authentication
+I (49788) SIP: [1970-01-01/00:00:24]=======WRITE 0832 bytes>>
+I (49798) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--618984956;rport
+From: <sip:125@192.168.1.11:5060>;tag=-1049864049
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 13 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891631/2be4365098f23372d6d0ddb4f6b269c8", uri="sip:192.168.1.11:5060", response="97b1b8a461f7602cd1de604c1c4fb652", algorithm=md5, nc=00000001, cnonce="583da2fa0ff70ec6", qop="auth"
+
+
+I (49868) SIP: [1970-01-01/00:00:24]=======================>>
+I (49908) SIP: [1970-01-01/00:00:24]<<=====READ 0496 bytes==
+I (49908) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--618984956
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-1049864049
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--618984956
+CSeq: 13 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd",opaque="3af820e60de90bfd",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (49948) SIP: [1970-01-01/00:00:24]<<======================
+I (49958) SIP: Required authentication
+I (49968) SIP: [1970-01-01/00:00:24]=======WRITE 0831 bytes>>
+I (49968) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-1925636968;rport
+From: <sip:125@192.168.1.11:5060>;tag=-182996806
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 14 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd", uri="sip:192.168.1.11:5060", response="41b78cfb89ab773c01d175f708920f37", algorithm=md5, nc=00000001, cnonce="2314358e8a7047f3", qop="auth"
+
+
+I (50048) SIP: [1970-01-01/00:00:24]=======================>>
+I (50088) SIP: [1970-01-01/00:00:24]<<=====READ 0495 bytes==
+I (50088) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-1925636968
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-182996806
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-1925636968
+CSeq: 14 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd",opaque="710d066f74b2bd24",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (50128) SIP: [1970-01-01/00:00:24]<<======================
+I (50138) SIP: Required authentication
+I (50148) SIP: [1970-01-01/00:00:24]=======WRITE 0830 bytes>>
+I (50148) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-632691396;rport
+From: <sip:125@192.168.1.11:5060>;tag=1486253994
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 15 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd", uri="sip:192.168.1.11:5060", response="62bbc6b79461a7d90038337d7753c928", algorithm=md5, nc=00000001, cnonce="c08cf28467bc0a0e", qop="auth"
+
+
+I (50228) SIP: [1970-01-01/00:00:24]=======================>>
+I (50268) SIP: [1970-01-01/00:00:24]<<=====READ 0493 bytes==
+I (50268) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-632691396
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=1486253994
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-632691396
+CSeq: 15 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd",opaque="59b80feb1fb3e67b",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (50308) SIP: [1970-01-01/00:00:24]<<======================
+I (50318) SIP: Required authentication
+I (50318) SIP: [1970-01-01/00:00:24]=======WRITE 0831 bytes>>
+I (50328) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-1145443983;rport
+From: <sip:125@192.168.1.11:5060>;tag=-775880962
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 16 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd", uri="sip:192.168.1.11:5060", response="3e79e21bd88ac837897226d350cc12e5", algorithm=md5, nc=00000001, cnonce="852ae645691049cd", qop="auth"
+
+
+I (50398) SIP: [1970-01-01/00:00:24]=======================>>
+I (50428) SIP: [1970-01-01/00:00:24]<<=====READ 0495 bytes==
+I (50428) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-1145443983
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-775880962
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-1145443983
+CSeq: 16 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd",opaque="663f2f4f44622d70",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (50468) SIP: [1970-01-01/00:00:24]<<======================
+I (50478) SIP: Required authentication
+I (50488) SIP: [1970-01-01/00:00:24]=======WRITE 0831 bytes>>
+I (50488) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--542230363;rport
+From: <sip:125@192.168.1.11:5060>;tag=1182905877
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 17 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd", uri="sip:192.168.1.11:5060", response="94442e8af996e703587b7b91a788c7ac", algorithm=md5, nc=00000001, cnonce="93e5563d8be9449c", qop="auth"
+
+
+I (50568) SIP: [1970-01-01/00:00:24]=======================>>
+I (50598) SIP: [1970-01-01/00:00:24]<<=====READ 0495 bytes==
+I (50598) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--542230363
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=1182905877
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--542230363
+CSeq: 17 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd",opaque="6a619f1030e36b27",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (50648) SIP: [1970-01-01/00:00:24]<<======================
+I (50648) SIP: Required authentication
+I (50658) SIP: [1970-01-01/00:00:24]=======WRITE 0831 bytes>>
+I (50658) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--1000504024;rport
+From: <sip:125@192.168.1.11:5060>;tag=513929230
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 18 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd", uri="sip:192.168.1.11:5060", response="d7b5cf6549608ee2249eab729bd95d5d", algorithm=md5, nc=00000001, cnonce="ea2889f0bc4cbbcd", qop="auth"
+
+
+I (50738) SIP: [1970-01-01/00:00:25]=======================>>
+I (50778) SIP: [1970-01-01/00:00:25]<<=====READ 0496 bytes==
+I (50778) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK--1000504024
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=513929230
+To: <sip:125@192.168.1.11>;tag=z9hG4bK--1000504024
+CSeq: 18 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd",opaque="33a35172743df846",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (50818) SIP: [1970-01-01/00:00:25]<<======================
+I (50828) SIP: Required authentication
+I (50828) SIP: [1970-01-01/00:00:25]=======WRITE 0831 bytes>>
+I (50838) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-1904327715;rport
+From: <sip:125@192.168.1.11:5060>;tag=-104422790
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 19 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891632/09d68b6937f82fe848ad91cabeba8bcd", uri="sip:192.168.1.11:5060", response="5b050ca34fb25f734d32946c122c32b9", algorithm=md5, nc=00000001, cnonce="ad5a5cecd5c78cb1", qop="auth"
+
+
+I (50908) SIP: [1970-01-01/00:00:25]=======================>>
+I (50948) SIP: [1970-01-01/00:00:25]<<=====READ 0495 bytes==
+I (50948) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-1904327715
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-104422790
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-1904327715
+CSeq: 19 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891633/bf0def2cc72a0d6ffa0c0fa4c99f5b45",opaque="2da4c4311a31edd9",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (50988) SIP: [1970-01-01/00:00:25]<<======================
+I (50998) SIP: Required authentication
+I (50998) SIP: [1970-01-01/00:00:25]=======WRITE 0832 bytes>>
+I (51008) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK-1562832922;rport
+From: <sip:125@192.168.1.11:5060>;tag=-1932679771
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 20 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891633/bf0def2cc72a0d6ffa0c0fa4c99f5b45", uri="sip:192.168.1.11:5060", response="7fbf4cbe6cdafc2c48200eaa43808bbd", algorithm=md5, nc=00000001, cnonce="044cb41108b2492b", qop="auth"
+
+
+I (51078) SIP: [1970-01-01/00:00:25]=======================>>
+I (51118) SIP: [1970-01-01/00:00:25]<<=====READ 0496 bytes==
+I (51118) SIP: 
+
+SIP/2.0 401 Unauthorized
+Via: SIP/2.0/UDP 192.168.0.100:10413;rport=10413;received=192.168.1.7;branch=z9hG4bK-1562832922
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+From: <sip:125@192.168.1.11>;tag=-1932679771
+To: <sip:125@192.168.1.11>;tag=z9hG4bK-1562832922
+CSeq: 20 REGISTER
+WWW-Authenticate: Digest realm="asterisk",nonce="1634891633/bf0def2cc72a0d6ffa0c0fa4c99f5b45",opaque="61f39fa929552476",algorithm=md5,qop="auth"
+Server: FPBX-15.0.17.34(16.20.0)
+Content-Length:  0
+
+
+I (51158) SIP: [1970-01-01/00:00:25]<<======================
+I (51168) SIP: Required authentication
+I (51178) SIP: [1970-01-01/00:00:25]=======WRITE 0832 bytes>>
+I (51178) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--588815075;rport
+From: <sip:125@192.168.1.11:5060>;tag=-1151167904
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 21 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891633/bf0def2cc72a0d6ffa0c0fa4c99f5b45", uri="sip:192.168.1.11:5060", response="1c9c7fcec6ff1fb4adca497b0353aa9a", algorithm=md5, nc=00000001, cnonce="1a27ca01d233576a", qop="auth"
+
+
+I (51258) SIP: [1970-01-01/00:00:25]=======================>>
+W (51298) wifi:<ba-add>idx:2 (ifx:0, 80:ea:07:5d:32:82), tid:6, ssn:1, winSize:64
+W (53268) SIP: Retransmit again
+I (53268) SIP: [1970-01-01/00:00:26]=======WRITE 0832 bytes>>
+I (53268) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--588815075;rport
+From: <sip:125@192.168.1.11:5060>;tag=-1151167904
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 21 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891633/bf0def2cc72a0d6ffa0c0fa4c99f5b45", uri="sip:192.168.1.11:5060", response="1c9c7fcec6ff1fb4adca497b0353aa9a", algorithm=md5, nc=00000001, cnonce="1a27ca01d233576a", qop="auth"
+
+
+I (53338) SIP: [1970-01-01/00:00:26]=======================>>
+W (55348) SIP: Retransmit again
+I (55348) SIP: [1970-01-01/00:00:27]=======WRITE 0832 bytes>>
+I (55348) SIP: 
+
+REGISTER sip:125@192.168.1.11:5060 SIP/2.0
+Via: SIP/2.0/UDP 192.168.0.100:10413;branch=z9hG4bK--588815075;rport
+From: <sip:125@192.168.1.11:5060>;tag=-1151167904
+To: <sip:125@192.168.1.11:5060>
+Contact: <sip:125@192.168.0.100:10413>
+Max-Forwards: 70
+Call-ID: 7B8D56AFEBEB6B332726FC6758ABD7843BC140FBA89E
+CSeq: 21 REGISTER
+Expires: 3600
+User-Agent: ESP32 SIP/2.0
+Content-Length: 0
+Allow: INVITE, ACK, CANCEL, BYE, UPDATE, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+Allow-Events: presence, kpml
+Authorization: Digest username="125", realm="asterisk", nonce="1634891633/bf0def2cc72a0d6ffa0c0fa4c99f5b45", uri="sip:192.168.1.11:5060", response="1c9c7fcec6ff1fb4adca497b0353aa9a", algorithm=md5, nc=00000001, cnonce="1a27ca01d233576a", qop="auth"
+
+
+I (55418) SIP: [1970-01-01/00:00:27]=======================>>
+W (57428) SIP: read timeout
+E (57428) SIP: Error register device
+W (57428) SIP: CHANGE STATE FROM 1, TO 0, :func: sip_register:1682
